@@ -9,7 +9,7 @@ public class Morce {
         //Arrumar error
         for (int i = 0; i < tamanhoT; i++) {
             if (texto.charAt(i) >= 97 && texto.charAt(i) <= 122) {
-                switch (Character.toUpperCase(texto.charAt(i))) {
+                switch (Character.toLowerCase(texto.charAt(i))) {
                     case 'a' -> morse += ".- ";
                     case 'b' -> morse += "-... ";
                     case 'c' -> morse += "-.-. ";
