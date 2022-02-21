@@ -9,7 +9,7 @@ public class Cesar {
      * @param texto string a ser cripografado
      * @return o texto criptografado
      */
-    public static String cesarCriptografar(int chave, String texto ) {
+    public static String cesarCriptografar (int chave, String texto ) {
         StringBuilder textoCifrado = new StringBuilder();
         int tamanhoTexto = texto.length();
 
