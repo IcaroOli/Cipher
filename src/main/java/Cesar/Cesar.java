@@ -4,12 +4,11 @@ package Cesar;
 public class Cesar {
 
     /**
-     *
      * @param chave numero do deslocamento
      * @param texto string a ser cripografado
      * @return o texto criptografado
      */
-    public static String cesarCriptografar (int chave, String texto ) {
+    public static String cesarCriptografar(int chave, String texto) {
         StringBuilder textoCifrado = new StringBuilder();
         int tamanhoTexto = texto.length();
 
@@ -38,7 +37,7 @@ public class Cesar {
 
             if (textoCifrado.charAt(c) >= 97 && textoCifrado.charAt(c) <= 122) {
                 charDecifrado = (char) ((textoCifrado.charAt(c) - 97 + chave) % 26 + 97);
-            }else if (textoCifrado.charAt(c) >= 65 && textoCifrado.charAt(c) <= 90 )
+            } else if (textoCifrado.charAt(c) >= 65 && textoCifrado.charAt(c) <= 90)
                 charDecifrado = (char) ((textoCifrado.charAt(c) - 65 + chave) % 26 + 97);
             texto.append((char) charDecifrado);
         }
