@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0c0de-6f92-40e9-ad19-994e3a895cc3" name="Changes" comment="Edit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Cesar/cesarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cesar/Cesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cesar/Cesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cesar/cExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cesar/cExecute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cesar/Cesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cesar/Cesar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cesar/cExecute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cesar/cExecute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/execute/execute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/execute/execute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/morce/Morce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/morce/Morce.class" afterDir="false" />
-    </list>
+    <list default="true" id="a3d0c0de-6f92-40e9-ad19-994e3a895cc3" name="Changes" comment="Começo test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645486356390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Começo test">
+      <created>1650324796977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650324796977</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Começo test">
+      <created>1650324813930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650324813930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit" />
+    <MESSAGE value="Começo test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Começo test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
