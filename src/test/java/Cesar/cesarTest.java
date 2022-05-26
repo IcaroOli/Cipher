@@ -22,10 +22,15 @@ public class cesarTest {
         assertEquals("icaro",cesarDecriptografia(chave,code));
     }
     @Test
-    //Arrumar
     public void testFail_codificarCesar(){
         int chave = 15;
         String texto = "icaro";
         assertNotEquals("vpneb",cesarCriptografar(chave,texto));
+    }
+    @Test
+    public void testFail_decodificarCesar(){
+        int chave = 15;
+        String code = "vpneb";
+        assertNotEquals("icaro",cesarDecriptografia(chave,code));
     }
 }

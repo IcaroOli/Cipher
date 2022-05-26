@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d0c0de-6f92-40e9-ad19-994e3a895cc3" name="Changes" comment="Começo test" />
+    <list default="true" id="a3d0c0de-6f92-40e9-ad19-994e3a895cc3" name="Changes" comment="Começo test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cesar/cesarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cesar/cesarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,26 +50,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.cesarTest.testFail_codificarCesar">
+  <component name="RunManager" selected="Application.Execute">
     <configuration name="Execute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="execute.Execute" />
       <module name="cipher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="execute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="morce.test" />
-      <module name="cipher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="morce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,6 +75,22 @@
       <option name="PACKAGE_NAME" value="Cesar" />
       <option name="MAIN_CLASS_NAME" value="Cesar.cesarTest" />
       <option name="METHOD_NAME" value="testFail_codificarCesar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cesarTest.testFail_decodificarCesar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cipher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cesar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cesar" />
+      <option name="MAIN_CLASS_NAME" value="Cesar.cesarTest" />
+      <option name="METHOD_NAME" value="testFail_decodificarCesar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.cesarTest.testFail_codificarCesar" />
         <item itemvalue="Application.Execute" />
+        <item itemvalue="JUnit.cesarTest.testFail_decodificarCesar" />
+        <item itemvalue="JUnit.cesarTest.testFail_codificarCesar" />
         <item itemvalue="JUnit.cesarTest.testSucess_decodificarCesar" />
         <item itemvalue="JUnit.cesarTest.testSucess_codificarCesar" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650324813930</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Começo test">
+      <created>1650324861764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650324861764</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
